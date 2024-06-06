@@ -1,0 +1,43 @@
+/*
+filename:   appStyles.css
+author:     Andre Long
+description: This is the main styling sheet for the Reimburstment application
+*/
+
+body
+{
+   background-image: url("../IMAGES/sky-cloud.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+     /* background-color: #5F9EA0; */
+}
+
+#loginDiv
+{
+    background-color: #ff00cc;
+    width: 25%;
+    margin: auto;
+    border: 3px solid green;
+    padding: 10px;
+    box-shadow: 5px 5px 10px #999;
+    background: linear-gradient(HotPink, yellow);
+}
+
+h1
+{
+   text-align: center;
+   color:#B22222;
+}
+
+h2
+{
+   color: #F0FFFF;
+}
+
+#userInfo
+{
+   border-color:#FF8C00;
+   border-width: thin;
+   border-style: solid;
+}
